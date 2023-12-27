@@ -199,6 +199,18 @@ Peer-To-Peer，Peer指的是对等体，即分布式应用的一种 。
 
 传输网络不一定必须，只有当内容提供商和ISP未直接相连时需要。
 
+ISP可以分为接入ISP——Access ISP和Global ISP，Global ISP将多个Access ISP连接起来，Access ISP又叫Access Net；多个Global ISP可以互联起来扩展其业务范围。
+
+Global ISP之间的互联可以有两种方式：
+
+1. 在两个ISP的某两个内部路由器之间连一条链路，两者对等；
+
+2. 多个ISP连接到同一个IXP，这种情况适用于多个ISP或者不对等情况。
+
+   ![ISP](picture4.png)
+
+
+
 网络按照覆盖范围的划分：
 
 **PAN 个域网**（蓝牙）；
