@@ -193,23 +193,33 @@ Peer-To-Peer，Peer指的是对等体，即分布式应用的一种 。
 
 
 
-##### **内容提供网络——传输（骨干）网络——ISP（网络服务提供商）**
+##### **ICP（内容提供网络）——传输（骨干）网络——ISP（网络服务提供商）**
 
 内容提供网络：数据中心网络、内容分发网络（分布式存储数据内容）
 
 传输网络不一定必须，只有当内容提供商和ISP未直接相连时需要。
 
+某些大型网络内容提供商会将自己的多个数据中心服务器DC建立在Global ISP的核心机房附近，这样当用户从接入ISP到达Global ISP时，可以很快的访问到想要的数据内容。而大型公司的数据中心服务器DC之间用专用线缆或租用线缆相连接，这样保证了分布式数据中心的数据调度速度和较低的成本。
+
 ISP可以分为接入ISP——Access ISP和Global ISP，Global ISP将多个Access ISP连接起来，Access ISP又叫Access Net；多个Global ISP可以互联起来扩展其业务范围。
 
 Global ISP之间的互联可以有两种方式：
 
-1. 在两个ISP的某两个内部路由器之间连一条链路，两者对等；
+1. 在两个ISP的某两个内部路由器之间连一条链路，两者对等(Peer)；
 
 2. 多个ISP连接到同一个IXP，这种情况适用于多个ISP或者不对等情况。
 
    ![ISP](picture4.png)
 
+上下级（Global与Access）ISP之间的连接方式：用POP（point of presence）连接起来，是不对等方式。
 
+ISP层级划分：
+
+1. Global ISP
+1. Regional ISP
+1. Local ISP
+1. Access ISP
+1. ~~终端~~
 
 网络按照覆盖范围的划分：
 
