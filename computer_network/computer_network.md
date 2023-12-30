@@ -1059,3 +1059,12 @@ IPv4默认帧头长20字节，最长60字节。
 
 
 ICMP：Internet控制消息协议
+
+举例：
+
+- 当路由器无法找到目标地址，或DF位置位，但是需要分段，则发送Destination unreachable消息给源主机。
+- tracert工具：找到到目标主机之间所有的路由器，TTL字段递增即可，路由器看到TTL减为0，回传Time exceeded消息，带有IP地址。
+- ping工具：使用Echo和Echo reply类型。
+
+ARP：地址解析协议
+
