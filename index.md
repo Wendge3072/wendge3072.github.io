@@ -2,6 +2,10 @@
 
 [计算机网络复习笔记](/computer_network/computer_network.md)
 
+### macOS 软件配置
+
+[macOS 鼠标侧键配置指南]()
+
 ### 联系我
 
-[Email:wendge@outlook.com](mailto:wendge@outlook.com)
+[Email:wendge@outlook.com](mailto:lyni@zju.edu.cn)
