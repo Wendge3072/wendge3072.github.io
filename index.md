@@ -8,4 +8,4 @@
 
 ### 联系我
 
-[Email:wendge@outlook.com](mailto:lyni@zju.edu.cn)
+[Email:lyni@zju.edu.cn](mailto:lyni@zju.edu.cn)
